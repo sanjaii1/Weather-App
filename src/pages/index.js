@@ -19,8 +19,8 @@ const Index = () => {
                   backgroundImage: `url(${backgroundImage})`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
-                  borderRadius:'10px',
-                  margin:'10px'
+                  borderRadius:'30px',
+                  // margin:'10px'
                 }}
               >
                 <Weather />
