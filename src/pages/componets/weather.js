@@ -104,7 +104,7 @@ function Weather() {
   return (
     <Box sx={style.weatherBox}>
       <Grid container spacing={2} sx={style.weatherGrid}>
-        <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
+        <Grid item xs={12} sm={6} md={12} lg={6} xl={6}>
           <Card
             style={{
               backgroundColor: "#FAE2BD",
@@ -258,7 +258,7 @@ function Weather() {
             </Box>
           </Card>
         </Grid>
-        <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
+        <Grid item xs={12} sm={6} md={12} lg={6} xl={6}>
           <Grid container spacing={2}>
             <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
               <Card
@@ -272,7 +272,7 @@ function Weather() {
                   width: "fit-content",
                 }}
               >
-                <Box>
+                
                   <Box>
                     <Box
                       sx={{
@@ -374,7 +374,7 @@ function Weather() {
                       ))}
                     </Box>
                   </Box>
-                </Box>
+                
               </Card>
             </Grid>
             <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
